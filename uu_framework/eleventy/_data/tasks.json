@@ -243,13 +243,13 @@
     {
       "id": "9.6",
       "title": "Curso de Polars",
-      "due": "2026-03-03",
+      "due": "2026-03-10",
       "points": "20",
       "chapter": "Python",
       "file": "09_python/00_index.md",
       "url": "/09_python/00_index/",
       "summary": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-polars \n\nCompleta el curso y ",
-      "overdue": false,
+      "overdue": true,
       "type": "homework"
     },
     {
@@ -261,7 +261,7 @@
       "file": "09_python/00_index.md",
       "url": "/09_python/00_index/",
       "summary": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-apis-in-python\n\nCompleta el c",
-      "overdue": false,
+      "overdue": true,
       "type": "homework"
     },
     {
@@ -273,7 +273,7 @@
       "file": "09_python/00_index.md",
       "url": "/09_python/00_index/",
       "summary": "Curso de Python:https://app.datacamp.com/learn/courses/introduction-to-fastapi\n\nCompleta el curso y ",
-      "overdue": false,
+      "overdue": true,
       "type": "homework"
     },
     {
@@ -285,6 +285,18 @@
       "file": "10_ides/00_index.md",
       "url": "/10_ides/00_index/",
       "summary": "Tu meta es que al final puedas:\n- Abrir un proyecto Python (con entorno virtual)\n- Ejecutar y debugg",
+      "overdue": false,
+      "type": "homework"
+    },
+    {
+      "id": "16.2",
+      "title": "Entrega de notebooks: Secciones 15 y 16",
+      "due": "2026-04-09",
+      "points": "50",
+      "chapter": "Computo",
+      "file": "16_computo/00_index.md",
+      "url": "/16_computo/00_index/",
+      "summary": "Entrega los notebooks de las secciones 15 y 16.\n\n**Incluye al menos:**\n1. `clase/15_arquitectura_de_",
       "overdue": false,
       "type": "homework"
     },
@@ -365,7 +377,62 @@
       "summary": "Examen en clase sobre el módulo 6 (Git y GitHub). Vale 10 puntos.\n\n**Temas:**\n- Flujo de trabajo: Sy",
       "overdue": true,
       "type": "exam"
+    },
+    {
+      "id": "16.E1",
+      "title": "Examen teórico: Secciones 15 y 16",
+      "date": "2026-03-26",
+      "location": null,
+      "duration": "1 hora",
+      "points": null,
+      "chapter": "Computo",
+      "file": "16_computo/00_index.md",
+      "url": "/16_computo/00_index/",
+      "summary": "Examen en clase de teoría (sin código) sobre las secciones 15 y 16. Vale 20 puntos.",
+      "overdue": false,
+      "type": "exam"
+    },
+    {
+      "id": "16.E2",
+      "title": "Examen sección 16: teoría + código/notebooks",
+      "date": "2026-04-09",
+      "location": null,
+      "duration": "1 hora",
+      "points": null,
+      "chapter": "Computo",
+      "file": "16_computo/00_index.md",
+      "url": "/16_computo/00_index/",
+      "summary": "Examen con teoría y ejercicios sobre notebooks/código de la sección 16. Puede incluir arquitectura, ",
+      "overdue": false,
+      "type": "exam"
     }
   ],
-  "projects": []
+  "projects": [
+    {
+      "id": "6.P1",
+      "title": "Proyecto: Página personal en GitHub Pages",
+      "due": "2026-05-05",
+      "points": "10",
+      "team_size": null,
+      "chapter": "Git",
+      "file": "06_git/00_index.md",
+      "url": "/06_git/00_index/",
+      "summary": "Crea tu propia página web y despliega en GitHub Pages. La página es libre: puede ser CV, portafolio,",
+      "overdue": false,
+      "type": "project"
+    },
+    {
+      "id": "9.P1",
+      "title": "Proyecto: Librería de Python publicable en PyPI",
+      "due": "2026-04-09",
+      "points": "10",
+      "team_size": null,
+      "chapter": "Python",
+      "file": "09_python/00_index.md",
+      "url": "/09_python/00_index/",
+      "summary": "Desarrolla una librería de Python útil y publicable. El tema es libre, pero debe resolver un problem",
+      "overdue": false,
+      "type": "project"
+    }
+  ]
 }
